@@ -94,13 +94,6 @@ class Planet
         return $this;
     }
 
-    public function setUpdated(string $updated): self
-    {
-        $this->updated = $updated;
-
-        return $this;
-    }
-
     public function getUpdatedAt(): ?\DateTimeInterface
     {
         return $this->updatedAt;
